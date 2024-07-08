@@ -1,0 +1,36 @@
+1. Requirements
+- Have python installed ( ^3.12)
+- Make sure you have the tkinter library installed.
+This comes along with the python installation on Windows
+
+In linux you can use the following command to install the tkinter
+
+Ubuntu:
+apt install python3-tk
+
+Fedora:
+dnf install python3-tkinter
+
+Arch Linux:
+pacman -S tk
+
+RHEL, CentOS, Oracle Linux:
+yum install tkinter
+
+2. How to run it?
+Inside the Ex#1 folder, open two terminals, and type the following command to run the client:
+
+python client.py
+
+In the other terminal run the following command to open and run the server:
+
+python server.py
+
+3. How to configure the parameters?
+In the config.py file you can find the parameters, you can modify them prudently.
+
+Recommendation!!!
+Do not change the HOST value
+
+Warning!!!
+If you configure inappropriate values it can affect the logic and operation of the code.
